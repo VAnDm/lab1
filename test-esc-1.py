@@ -45,8 +45,8 @@ def draw_romb():
 
             time.sleep(1)
 
-
-draw_romb()
+if __name__ == "__main__":
+    draw_romb()
 #if __name__ == "__main__":
     #for i in range(20):
         #draw_line(length=20, color=47, offset=i)
